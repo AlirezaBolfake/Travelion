@@ -46,7 +46,7 @@ body {
 */
 
 .header {
-    padding: 5rem 0;
+    padding: 5rem 0 0 0;
 }
 
 .nav {
@@ -97,4 +97,50 @@ body {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--app-txt-color);
+}
+
+
+/* 
+
+==== Circle Shapes ====
+
+*/
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.circle {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: .3;
+}
+
+.blue {
+    background-color: #42adff;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: #ff0d56;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: greenyellow;
 }
