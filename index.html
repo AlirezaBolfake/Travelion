@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelion.com</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles/app.css">
     <link rel="stylesheet" href="styles/grid.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -14,45 +14,45 @@
         <div class="container">
             <nav class="nav">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="header__logo">
                             <p class="header__logo-text">Travelion</p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-8">
                         <ul class="header__menu">
                             <li class="header__menu-item">
                                 Destinations
-                                <i class="fa-solid fa-angle-down"></i>    
+                                <i class="bi bi-chevron-down"></i>    
                             </li>
     
                             <li class="header__menu-item">
                                 Tours
-                                <i class="fa-solid fa-angle-down"></i>    
+                                <i class="bi bi-chevron-down"></i>    
                             </li>
     
                             <li class="header__menu-item">
                                 Hotels
-                                <i class="fa-solid fa-angle-down"></i>    
+                                <i class="bi bi-chevron-down"></i>    
                             </li>
     
                             <li class="header__menu-item">
                                 Cars
-                                <i class="fa-solid fa-angle-down"></i>    
+                                <i class="bi bi-chevron-down"></i>    
                             </li>
     
                             <li class="header__menu-item">
                                 Blog
-                                <i class="fa-solid fa-angle-down"></i>    
+                                <i class="bi bi-chevron-down"></i>    
                             </li>
     
                             <li class="header__menu-item">
                                 Support
-                                <i class="fa-solid fa-angle-down"></i>    
+                                <i class="bi bi-chevron-down"></i>    
                             </li>
                         </ul>
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="header__links">
                             <a href="#" class="header__link-button">Sign in</a>
                             <a href="#" class="header__link-button">Register</a>
@@ -75,38 +75,49 @@
     <section class="home">
         <div class="container">
             <h1 class="home__title">Explore. Discover. Travel</h1>
-            <p class="home__description">Embark on a journey of discovery with our curated travel experiences.
+            <p class="home__description">Embark on a journey of discovery with our curated travel experiences. <br>
                 Explore the worlds most captivating destinations and unforgettable accommodations.
             </p>
             <div class="home__search-box">
-                <div class="search-box__option">
-                    <div class="option__box">
-                        <p class="option__title">Destination</p>
-                        <i class="fa-solid fa-angle-down"></i>
+                <div class="option__wrapper">
+                    <div class="search-box__option">
+                        <div class="option__box">
+                            <p class="option__title">Destination</p>
+                            <i class="bi bi-chevron-down chevron-blue"></i>
+                        </div>
+                        <p class="option__item">Roma, italy</p>
                     </div>
-                    <p class="option__item">Roma, italy</p>
-                </div>
-
-                <div class="search-box__option">
-                    <div class="option__box">
-                        <p class="option__title">Check in / out</p>
-                        <i class="fa-solid fa-angle-down"></i>
+    
+                    <div class="search-box__option">
+                        <div class="option__box">
+                            <p class="option__title">Check in / out</p>
+                            <i class="bi bi-chevron-down chevron-blue"></i>
+                        </div>
+                        <p class="option__item">June 17-june 24</p>
                     </div>
-                    <p class="option__item">June 17-june 24</p>
-                </div>
-
-                <div class="search-box__option">
-                    <div class="option__box">
-                        <p class="option__title">Price Range</p>
-                        <i class="fa-solid fa-angle-down"></i>
+    
+                    <div class="search-box__option">
+                        <div class="option__box">
+                            <p class="option__title">Price Range</p>
+                            <i class="bi bi-chevron-down chevron-blue"></i>
+                        </div>
+                        <p class="option__item">$1800-$2000</p>
                     </div>
-                    <p class="option__item">$1800-$2000</p>
                 </div>
 
                 <div class="search__box-button">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="bi bi-search"></i>
                 </div>
             </div>
+        </div>
+
+        <div class="home__photos">
+            <img class="home__photo" id="first__photo" src="images/chris-curry-T5F2NughOXY-unsplash.jpg" alt="home photo">
+            <img class="home__photo" id="second__photo" src="images/evan-wise-o3bczsrCx-c-unsplash.jpg" alt="home photo">
+            <img class="home__photo" id="third__photo" src="images/siebe-warmoeskerken-n9hyG4ID-Rg-unsplash.jpg" alt="home photo">
+            <img class="home__photo" id="fourth__photo" src="images/igor-sporynin-1U2n7510yek-unsplash.jpg" alt="home photo">
+            <img class="home__photo" id="fifth__photo" src="images/sascha-bosshard-gfMEelIy7r8-unsplash.jpg" alt="home photo">
+            <img class="home__photo" id="sexth__photo" src="images/melina-kiefer-K64UpuzVi0E-unsplash.jpg" alt="home photo">
         </div>
     </section>
 </body>

@@ -78,9 +78,10 @@ body {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--app-txt-color);
+    cursor: pointer;
 }
 
-.fa-angle-down {
+.bi-chevron-down {
     color: var(--app-txt-color);
     margin-left: .5rem;
 }
@@ -124,7 +125,7 @@ body {
 }
 
 .blue {
-    background-color: #42adff;
+    background-color: var(--secondary-buttons);
 }
 
 .orange {
@@ -145,4 +146,140 @@ body {
 
 .green {
     background-color: greenyellow;
+}
+
+
+/* 
+
+==== Home Section ====
+
+*/
+
+.home {
+    margin-bottom: 5rem;
+}
+
+.home__title {
+    text-align: center;
+    font-size: 7rem;
+    color: var(--app-txt-color);
+}
+
+.home__description {
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.home__search-box {
+    width: 65rem;
+    height: 8.5rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    border: 2px solid #d3d3d386;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin: 5rem auto 0 auto;
+    box-shadow: 0 .2rem 1rem #d3d3d35b;
+}
+
+.option__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+}
+
+.search-box__option {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    cursor: pointer;
+}
+
+.option__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.option__item {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #838492;
+}
+
+.search__box-button {
+    background-color: var(--secondary-buttons);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bi-search {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.chevron-blue {
+    font-size: 1.5rem;
+    color: var(--secondary-buttons);
+}
+
+.home__photos {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.3rem;
+}
+
+.home__photo {
+    width: 25rem;
+    height: 32rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+#first__photo {
+    transform: rotate(3deg);
+}
+
+#second__photo {
+    transform: rotate(-2deg);
+    translate: 0 -3rem;
+}
+
+#third__photo {
+    transform: rotate(3deg);
+    translate: 0 -1rem;
+}
+
+#fourth__photo {
+    transform: rotate(-2deg);
+    translate: 0 3rem;
+}
+
+#fifth__photo {
+    transform: rotate(0deg);
+}
+
+#sexth__photo {
+    transform: rotate(-3deg);
+    translate: 0 3rem;
 }
