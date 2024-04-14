@@ -258,6 +258,7 @@ body {
 
 #first__photo {
     transform: rotate(3deg);
+    translate: 0 2rem;
 }
 
 #second__photo {
