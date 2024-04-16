@@ -19,6 +19,7 @@ html {
     text-decoration: none;
     box-sizing: inherit;
     font-family: "poppins";
+    user-select: none;
 }
 
 body {
@@ -283,4 +284,114 @@ body {
 #sexth__photo {
     transform: rotate(-3deg);
     translate: 0 3rem;
+}
+
+
+/* 
+
+==== Explore Section ====
+
+*/
+
+.explore {
+    background-color: #f8f8f8;
+    padding: 5rem 0;
+    margin-bottom: 5rem;
+}
+
+.explore__title {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.explore__description {
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.explore__tours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.exlpore__tour-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tour__photo {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.tour__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+    color: var(--app-txt-color);
+    cursor: pointer;
+}
+
+.tour__number {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #838492;
+    margin-top: .5rem;
+}
+
+.explore__pagination {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination__controlers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bi-arrow-left-circle-fill {
+    font-size: 3rem;
+    color: var(--app-txt-color);
+    cursor: pointer;
+    margin: auto;
+}
+
+.pagination__shapes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+}
+
+.pag__shape {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50px;
+    background-color: #cfcfde;
+    cursor: pointer;
+}
+
+.pag__shape--active {
+    width: 1.8rem;
+    background-color: var(--primary-buttons);
+}
+
+.bi-arrow-right-circle-fill {
+    font-size: 3rem;
+    color: var(--app-txt-color);
+    cursor: pointer;
+    margin: auto;
 }
