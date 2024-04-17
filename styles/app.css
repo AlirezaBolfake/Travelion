@@ -296,7 +296,6 @@ body {
 .explore {
     background-color: #f8f8f8;
     padding: 5rem 0;
-    margin-bottom: 5rem;
 }
 
 .explore__title {
@@ -404,7 +403,7 @@ body {
 */
 
 .popular {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .popular__title {
