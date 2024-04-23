@@ -888,3 +888,118 @@ body {
     font-weight: 600;
     color: var(--app-txt-color);
 }
+
+
+/* 
+
+==== Cars Section ====
+
+*/
+
+.cars {
+    margin-top: 10rem;
+    background-color: #f8f8f8;
+    padding: 5rem 0;
+}
+
+.cars__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cars__left-content {
+    width: 50%;
+    height: 52rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cars__circle {
+    width: 50rem;
+    height: 50rem;
+    border: 1px solid #a3a4b6;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.first-circle {
+
+}
+
+.second-circle {
+    top: 3rem;
+    left: 0;
+}
+
+.cars__image {
+    width: 20rem;
+    height: 25rem;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 1.5rem;
+}
+
+.image1 {
+    top: 3rem;
+    left: 10rem;
+    transform: rotate(5deg);
+}
+
+.image2 {
+    left: 10rem;
+    bottom: 0;
+    transform: rotate(-20deg);
+}
+
+.image3 {
+    right: 12rem;
+    transform: rotate(20deg);
+}
+
+.cars__right-content {
+    width: 50%;
+    height: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.cars__title {
+    width: 100%;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.cars__description {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cars__links {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cars__link-btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 14rem;
+    height: 4.5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
