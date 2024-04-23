@@ -1003,3 +1003,98 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+/* 
+
+==== Working Section ====
+
+*/
+
+.Working {
+    margin-top: 15rem;
+}
+
+.working__title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.working__description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+    letter-spacing: .5px;
+}
+
+.working__boxes-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.working__explore-box {
+    width: 40rem;
+    border: 2px solid #cfcfde;
+    border-radius: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem;
+}
+
+.explore__box-number {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--primary-buttons);
+    border-radius: .7rem;
+    font-size: 1.8rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore__box-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.explore__box-caption {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.working__circles {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18rem;
+}
+
+.working__circle {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: -1;
+}
+
+.working__circle .blue {
+    background-color: #42adff;
+}
+
+.working__circle .violet {
+    background-color: #ee82ee;
+}
