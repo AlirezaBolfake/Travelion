@@ -1098,3 +1098,57 @@ body {
 .working__circle .violet {
     background-color: #ee82ee;
 }
+
+
+/* 
+
+==== Choose Section ====
+
+*/
+
+.choose {
+    margin-top: 15rem;
+}
+
+.choose__title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choose__description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.choose__boxes-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.choose__box {
+    width: 20rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #cfcfde;
+    border-radius: .8rem;
+}
+
+.choose__box-number {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.choose__box-caption {
+    font-size: 1.5rem;
+}
