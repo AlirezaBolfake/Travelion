@@ -1356,3 +1356,67 @@ body {
     font-weight: 600;
     margin-top: 1.5rem;
 }
+
+
+/* 
+
+==== Email Section ====
+
+*/
+
+.email {
+    margin-top: 10rem;
+    background-color: #f8f8f8;
+    padding: 8rem 0;
+}
+
+.email__title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.email__description {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+    color: #414355;
+}
+
+.email__input-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.email__input-email {
+    width: 40rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border: 1px solid #a3a0c3;
+    padding-left: 2rem;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 500;
+    outline: none;
+}
+
+.email__input-email::placeholder {
+    color: #9593b1;
+}
+
+.email__button {
+    position: absolute;
+    right: 48.5rem;
+    width: 12rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--secondary-buttons);
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
